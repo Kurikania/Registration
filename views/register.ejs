@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Homework</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f58b749f86.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class = "navbar">
+        <div class = "nav-title"> Not just lorem </div>
+        <a href="#" class="toogle-btn">
+            <span class = "bar"></span>
+            <span class = "bar"></span>
+            <span class = "bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li> <a href="index">Home</a></li>
+                <li> <a href="about">About</a></li>
+                <li> <a href="register">Register</a></li>
+                <li> <a href="login">Log in</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section style = "padding-top: 30px;">
+        <!-- На странице регистрации сверстать форму регистрации. При регистрации пользователь обязательно 
+        должен заполнить поля: логин, e-mail, пароль, подтверждение пароля; при желании может загрузить одно изображение -->
+            <h1>Register today</h1>
+        <h3>Get your own personal lorem</h3>
+        <form action="/register" method="POST">
+            <div>
+                <label for="username"> Username: </label>
+                <input required autofocus type = "text" name = "username" placeholder="Enter a username" id = "username"> 
+            </div>
+        <div>
+            <label for="email">Enter your email</label>
+            <input type="email" name="email" placeholder="Enter a valid email" id = "email">      
+        </div>
+        <div>  
+            <label for="conf_email">Confirm your email</label>
+            <input type="email" name="email" placeholder="Confirm email" id = "conf_email"> 
+        </div>
+        <div>
+            <label for="password">Enter your password</label>
+            <input type="password" required placeholder="Enter your password" name = "password"> 
+        </div>
+        
+        <button>Register now!</button>
+        </form>
+    
+    </section>
+
+
+    <script src="app.js"> </script>
+</body>
+</html>
