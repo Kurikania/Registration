@@ -375,3 +375,15 @@ label {
         padding: 30px 10px;
     }
 }
+
+.navbar form {	
+		display: inline;
+		background: none!important;
+		border: none;
+		padding: 0!important;
+		text-decoration: none;
+		opacity: 0.75;
+		color: #fff;
+		cursor: pointer;
+	
+}

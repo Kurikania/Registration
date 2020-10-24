@@ -19,14 +19,19 @@
         </a>
         <div class="navbar-links">
             <ul>
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="about.html">About</a></li>
-                <li> <a href="register.html">Register</a></li>
-                <li> <a href="login.html">Log in</a></li>
+                <li> <a href="index">Home</a></li>
+                <li> <a href="about">About</a></li>
+                <li> <a href="register">Register</a></li>
+                <li> <a href="login">Log in</a></li>
+                <li><form action="/logout?_method=DELETE" method="POST">
+                  <a type="submit">Log Out</a>
+                </form></li>
             </ul>
         </div>
     </nav> 
-
+<section> 
+<h1> Hi, <%= name %> ! </h1>
+</section>
     <script src="app.js"> </script>
 </body>
 </html>

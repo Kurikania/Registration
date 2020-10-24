@@ -27,6 +27,9 @@
             </ul>
         </div>
     </nav>
+    <% if (messages.error) { %>
+        <%= messages.error %>
+      <% } %>
 <section style = "padding-top: 30px;">
  <!-- На странице авторизации сверстать форму авторизации. Пользователь авторизуется по e-mail и паролю. Все поля формы авторизации должны быть заполнены.
  -->
@@ -39,10 +42,10 @@
     </div>
     <div>
         <label for="password">Enter your password</label>
-        <input type="password" required placeholder="Enter your password" > 
+        <input type="password" required placeholder="Enter your password" name = "password" > 
     </div>
     
-    <button>Register now!</button>
+    <button>Login</button>
     </form>
 
 </section>
