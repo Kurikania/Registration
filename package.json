@@ -1,9 +1,9 @@
 {
   "name": "not_just_lorem",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kurikania",
@@ -22,5 +22,15 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kurikania/Registration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kurikania/Registration/issues"
+  },
+  "homepage": "https://github.com/Kurikania/Registration#readme",
+  "description": ""
 }
